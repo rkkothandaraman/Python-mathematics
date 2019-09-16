@@ -5,7 +5,7 @@ count=0
 index=0
 if(len(S)==N):
     for i in range(N):
-        if(max<S[i]):
+        if(max < S[i]):
             index=i
             count=count+1
     if(count==1):
